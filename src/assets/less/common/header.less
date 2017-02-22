@@ -1,0 +1,30 @@
+.header{
+  height: 50px;
+  line-height: 50px;
+  background: #262F39;
+  min-width: 1280px;
+  position: relative;
+  z-index: 103;
+  color: #fff;
+  .el-menu--dark {
+    height: 50px;
+    line-height: 50px;
+    background-color: #262F39;
+  }
+  .el-button{
+    background-color: transparent;
+    border: 0;
+    color: inherit;
+  }
+  .el-menu--horizontal .el-menu-item{
+    height: 50px;
+    line-height: 50px;
+    &:hover{
+      border-bottom: 0;
+    }
+    &.is-active{
+      color: inherit;
+      border-bottom: 4px solid #00a8ea;
+    }
+  }
+}
